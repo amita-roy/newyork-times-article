@@ -10,6 +10,12 @@
   margin-right: 20px;
 }
 
+.hr-line {
+  width: 72px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin: 0px auto 18px;
+}
+
 header {
   width: 100%;
   height: 45px;
@@ -160,19 +166,92 @@ main h1 {
   margin: 20px 0px;
 }
 
-.quote {
+h3 {
   font-size: 1.8rem;
   font-weight: bold;
 }
 
 .inflation-graphic-container {
-  width: 66%;
+  width: 55%;
+  margin-bottom: 20px;
 }
 
 .inflation-graphic-container img {
   width: 100%;
 }
 
-.inflation-graphic-container > * {
-  border: 1px solid red;
+.inflation-graphic-container h3 {
+  margin-bottom: 10px;
+}
+
+.inflation-graphic-container .graphic-intro {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.inflation-graphic {
+  position: relative;
+}
+
+.inflation-description {
+  position: absolute;
+  line-height: 1.8rem;
+  font-size: 1.3rem;
+  color: black;
+  font-weight: lighter;
+}
+
+.inflation-description span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.description1 {
+  top: 24.8264%;
+  left: 0.0436%;
+  width: 228px;
+}
+
+.description2 {
+  top: 24.8264%;
+  left: 25.5619%;
+  width: 228px;
+}
+
+.description3 {
+  top: 24.8264%;
+  left: 51.08%;
+  width: 228px;
+}
+
+.description4 {
+  top: 24.8264%;
+  left: 76.5982%;
+  width: 228px;
+}
+
+.description5 {
+  top: 73.4375%;
+  left: 0.0436%;
+  width: 228px;
+}
+
+.description6 {
+  top: 73.4375%;
+  left: 25.5619%;
+  width: 228px;
+}
+
+.description7 {
+  top: 73.4375%;
+  left: 51.08%;
+  width: 228px;
+}
+
+.description8 {
+  top: 73.4375%;
+  left: 76.5982%;
+  width: 228px;
 }
