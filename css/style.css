@@ -177,7 +177,8 @@ h3 {
 }
 
 .inflation-graphic-container img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .inflation-graphic-container h3 {
@@ -254,4 +255,72 @@ h3 {
   top: 73.4375%;
   left: 76.5982%;
   width: 228px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+p:first-of-type {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+  font-weight: bold;
+}
+
+.hr-line {
+  width: 72px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin: 0px auto 0px;
+}
+
+#account-creation-invitation, 
+.container a {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.hr-line:first-of-type {
+  margin-top: 80px;
+}
+
+.hr-line:last-of-type{
+    margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.main-article-text p a {
+  font-size: 1.8rem;
+  text-decoration: underline;
+  color: #326891;
+  font-weight: normal;
+}
+
+.iframe {
+  margin-bottom: 0px;
+}
+
+.video-container {
+  max-width: 85%;
+}
+
+#video-description,
+#video-credits {
+  font-size: 1.5rem;
+  color: #666;
+  margin-top: 0.7rem;
+  font-weight: normal;
+  width: 100%;
 }
