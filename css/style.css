@@ -29,6 +29,11 @@ nav {
   align-items: center;
 }
 
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
 .nav-logo svg {
   width: 200px;
 }
