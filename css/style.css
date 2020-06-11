@@ -159,3 +159,20 @@ main h1 {
   line-height: 2.6rem;
   margin: 20px 0px;
 }
+
+.quote {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.inflation-graphic-container {
+  width: 66%;
+}
+
+.inflation-graphic-container img {
+  width: 100%;
+}
+
+.inflation-graphic-container > * {
+  border: 1px solid red;
+}
