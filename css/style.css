@@ -94,13 +94,18 @@ main h1 {
 
 .opening-image-container p {
   width: 70%;
+}
+
+.opening-image-container p,
+.image-container p {
   font-size: 1.5rem;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #666;
   line-height: 1.7rem;
 }
 
-.opening-image-credits {
+.opening-image-credits,
+.image-container-credit {
   font-size: 1.2rem;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #888;
@@ -109,7 +114,7 @@ main h1 {
 
 .main-article {
   width: 41%;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .article-info {
@@ -173,7 +178,6 @@ h3 {
 
 .inflation-graphic-container {
   width: 55%;
-  margin-bottom: 20px;
 }
 
 .inflation-graphic-container img {
@@ -182,7 +186,7 @@ h3 {
 }
 
 .inflation-graphic-container h3 {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .inflation-graphic-container .graphic-intro {
@@ -207,6 +211,22 @@ h3 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-right: 10px;
+}
+
+.inflation-author,
+.divider {
+  align-self: flex-start;
+}
+
+.inflation-author {
+  font-size: 1.3rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.divider {
+  margin-bottom: 15px;
 }
 
 .description1 {
@@ -268,20 +288,24 @@ p {
   margin: 0;
 }
 
-p:first-of-type {
+.container p {
   font-weight: bold;
 }
 
-a {
+.container a {
   text-decoration: none;
   color: rgb(50, 104, 145);
   font-weight: bold;
 }
 
 .hr-line {
-  width: 72px;
-  border-bottom: 1px solid rgb(204, 204, 204);
   margin: 0px auto 0px;
+}
+
+.hr-line,
+.divider {
+  width: 72px;
+  border-bottom: 1px solid rgb(2, 2, 2);
 }
 
 #account-creation-invitation,
@@ -289,16 +313,14 @@ a {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 1.5rem;
-  line-height: 3rem;
 }
 
 .hr-line:first-of-type {
-  margin-top: 80px;
+  margin-bottom: 12px;
 }
 
 .hr-line:last-of-type {
   margin-top: 15px;
-  margin-bottom: 50px;
 }
 
 .main-article-text p a {
@@ -308,6 +330,10 @@ a {
   font-weight: normal;
 }
 
+#video-description {
+  margin-bottom: 40px;
+}
+
 #video-description,
 #video-credits {
   font-size: 1.5rem;
@@ -315,6 +341,11 @@ a {
   margin-top: 0.7rem;
   font-weight: normal;
   width: 100%;
+}
+
+#video-credits {
+  font-size: 1.3rem;
+  color: #888;
 }
 
 .video-container {
@@ -333,4 +364,16 @@ a {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+.image-container {
+  max-width: 50%;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.image-container p {
+  margin-bottom: 0;
 }
