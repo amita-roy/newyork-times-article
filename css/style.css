@@ -153,3 +153,9 @@ main h1 {
 .author {
   font-size: 1.5rem;
 }
+
+.main-article-text p {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  margin: 20px 0px;
+}
