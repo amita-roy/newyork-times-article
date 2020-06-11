@@ -105,3 +105,13 @@ main h1 {
   color: #888;
   margin-left: 8px;
 }
+
+.main-article {
+  width: 40%;
+  margin-top: 5px;
+}
+
+.author{
+  font-size: 1.5rem;
+  
+}
