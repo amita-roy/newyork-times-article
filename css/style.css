@@ -2,4 +2,59 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  width: 100vw;
+}
+
+.right-margin {
+  margin-right: 20px;
+}
+
+header {
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo svg {
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-left-section a,
+.nav-right-section a {
+  font-size: 14px;
+}
+
+.nav-left-section a {
+  font-weight: bold;
+}
+
+.nav-right-section a {
+  text-decoration: underline;
+  font-weight: 550;
+}
+
+.login-btn {
+  padding: 8px 15px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
 }
