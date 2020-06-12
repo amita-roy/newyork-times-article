@@ -516,15 +516,18 @@ p {
 .further-reading-astronomy {
   float: left;
   width: 75%;
-  height: 500px;
+  height: auto;
   display: grid;
-  grid-template-rows: 40px 1fr 1fr;
+  grid-template-rows: 40px auto 1fr;
   grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
 }
 
-.further-reading-astronomy p:first-of-type,
-.further-reading-editors-picks p:first-of-type {
+.further-reading-astronomy h5,
+.further-reading-editors-picks h5 {
   grid-column: 1 / 4;
+  border-top: 1px solid black;
 }
 
 .further-reading-popular {
@@ -542,4 +545,24 @@ p {
   display: grid;
   grid-template-rows: 40px 1fr;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.further-reading-article-image {
+  width: 100%;
+  height: auto;
+}
+
+.further-reading-article-caption {
+  float: right;
+}
+
+.further-reading-article-title {
+  clear: right;
+  font-size: 1.7rem;
+  float: left;
+}
+
+.further-reading-article-date {
+  clear: both;
+
 }
