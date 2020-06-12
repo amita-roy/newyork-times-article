@@ -205,6 +205,10 @@ h3 {
   height: 100%;
 }
 
+.inflation-graphic-grid-item span {
+  margin-right: 7px;
+}
+
 .inflation-graphic-grid-item1 {
   grid-row: 2 / 3;
   grid-column: 1 / 2;
@@ -246,7 +250,6 @@ h3 {
 }
 
 .inflation-graphic-grid-item {
-  border: 1px solid red;
   line-height: 17px;
   font-size: 14px;
   color: black;
@@ -265,14 +268,24 @@ h3 {
   height: auto;
 }
 
-.inflation-graphic-container h3 {
-  margin-bottom: 8px;
+.inflation-graphic-header,
+.graphic-intro {
+  width: 945px;
 }
 
-.inflation-graphic-container .graphic-intro {
+.inflation-graphic-header {
+  margin-bottom: 8px;
+  margin-left: 480px;
+  align-self: flex-start;
+}
+
+.graphic-intro {
   font-size: 1.5rem;
   color: #666;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-left: 480px;
+  align-self: flex-start;
+  margin-right: 7px;
 }
 
 .inflation-graphic {
@@ -296,6 +309,7 @@ h3 {
 .inflation-author,
 .divider {
   align-self: flex-start;
+  margin-left: 480px;
 }
 
 .inflation-author {
@@ -306,6 +320,7 @@ h3 {
 }
 
 .divider {
+  margin-top: 50px;
   margin-bottom: 15px;
 }
 
@@ -455,5 +470,39 @@ p {
 }
 
 .image-container p {
+  margin-top: 7px;
   margin-bottom: 0;
+}
+
+.main-article-footer a {
+  text-decoration: underline;
+}
+
+.main-article-footer a:hover {
+  text-decoration: none;
+}
+
+.main-article-footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 500px;
+}
+
+.main-article-footer-btn {
+  background-color: rgb(86, 123, 149);
+  color: white;
+  padding: 10px 0px;
+  width: 330px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  font-size: 1.2rem;
+}
+
+.main-article-footer-btn:hover {
+  background-color: rgb(50, 104, 145);
 }
