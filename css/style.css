@@ -506,7 +506,7 @@ p {
 .further-reading-astronomy > *,
 .further-reading-editors-picks > *,
 .further-reading-popular > * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .further-reading-section {
@@ -536,6 +536,7 @@ p {
   height: 750px;
   display: grid;
   grid-template-rows: 40px 1fr;
+  padding-left: 30px;
 }
 
 .further-reading-editors-picks {
@@ -578,5 +579,21 @@ p {
 .paid-post img:nth-of-type(2) {
   width: 25px;
   height: 25px;
+}
 
+.most-popular-articles h3 {
+  margin-bottom: 20px;
+}
+
+.most-popular-articles h3::before {
+  content: "";
+  border: 0.01px solid rgb(226, 226, 226);
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.most-popular-articles h3 a {
+  font-size: 1.8rem;
+  font-weight: 500;
 }
