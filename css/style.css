@@ -547,6 +547,10 @@ p {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.further-reading-card {
+  padding-bottom: 20px;
+}
+
 .further-reading-article-image {
   width: 100%;
   height: auto;
@@ -554,15 +558,25 @@ p {
 
 .further-reading-article-caption {
   float: right;
+  color: #999999;
+  margin: 3px 0px 0px;
 }
 
 .further-reading-article-title {
   clear: right;
   font-size: 1.7rem;
   float: left;
+  margin: 5px 0px;
 }
 
 .further-reading-article-date {
   clear: both;
+  font-size: 12px;
+  color: #999999;
+}
+
+.paid-post img:nth-of-type(2) {
+  width: 25px;
+  height: 25px;
 
 }
