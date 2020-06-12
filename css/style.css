@@ -487,7 +487,7 @@ p {
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
-  margin-bottom: 500px;
+  margin-bottom: 70px;
 }
 
 .main-article-footer-btn {
@@ -505,4 +505,47 @@ p {
 
 .main-article-footer-btn:hover {
   background-color: rgb(50, 104, 145);
+}
+
+.further-reading-section,
+.further-reading-section > *,
+.further-reading-astronomy > *,
+.further-reading-editors-picks > *,
+.further-reading-popular > * {
+  border: 1px solid red;
+}
+
+.further-reading-section {
+  width: 85%;
+}
+
+.further-reading-astronomy {
+  float: left;
+  width: 75%;
+  height: 500px;
+  display: grid;
+  grid-template-rows: 40px 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.further-reading-astronomy p:first-of-type,
+.further-reading-editors-picks p:first-of-type {
+  grid-column: 1 / 4;
+}
+
+.further-reading-popular {
+  float: right;
+  width: 25%;
+  height: 750px;
+  display: grid;
+  grid-template-rows: 40px 1fr;
+}
+
+.further-reading-editors-picks {
+  float: left;
+  width: 75%;
+  height: 250px;
+  display: grid;
+  grid-template-rows: 40px 1fr;
+  grid-template-columns: repeat(3, 1fr);
 }
