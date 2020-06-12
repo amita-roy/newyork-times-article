@@ -501,21 +501,21 @@ p {
   background-color: rgb(50, 104, 145);
 }
 
-.further-reading-section,
-.further-reading-section > *,
-.further-reading-astronomy > *,
-.further-reading-editors-picks > *,
-.further-reading-popular > * {
-  /* border: 1px solid red; */
-}
+/* .further-reading-section, */
+/* .further-reading-section > *, */
+/* .further-reading-astronomy > *, */
+/* .further-reading-editors-picks > * */
+/* .further-reading-popular > * */ 
+  /* border: 1px solid red;  */
+/* } */
 
 .further-reading-section {
-  width: 85%;
+  width: 83.5%;
 }
 
 .further-reading-astronomy {
   float: left;
-  width: 75%;
+  width: 70%;
   height: auto;
   display: grid;
   grid-template-rows: 40px auto 1fr;
@@ -534,9 +534,14 @@ p {
   padding: 16px 0px 0px 0px;
 }
 
+.further-reading-editors-picks h5,
+.further-reading-popular h5 {
+  color: #333;
+}
+
 .further-reading-popular {
   float: right;
-  width: 25%;
+  width: 30%;
   height: 750px;
   display: grid;
   grid-template-rows: 40px 1fr;
@@ -545,11 +550,13 @@ p {
 
 .further-reading-editors-picks {
   float: left;
-  width: 75%;
+  width: 70%;
   height: 250px;
   display: grid;
   grid-template-rows: 40px 1fr;
   grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
 }
 
 .further-reading-card {
