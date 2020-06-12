@@ -525,9 +525,13 @@ p {
 }
 
 .further-reading-astronomy h5,
-.further-reading-editors-picks h5 {
+.further-reading-editors-picks h5,
+.further-reading-popular h5 {
   grid-column: 1 / 4;
   border-top: 1px solid black;
+  align-self: end;
+  font-size: 1.6rem;
+  padding: 16px 0px 0px 0px;
 }
 
 .further-reading-popular {
