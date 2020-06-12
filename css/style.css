@@ -505,9 +505,9 @@ p {
 /* .further-reading-section > *, */
 /* .further-reading-astronomy > *, */
 /* .further-reading-editors-picks > * */
-/* .further-reading-popular > * */ 
+/* .further-reading-popular > * */
 footer {
-    border: 1px solid red;  
+  border: 1px solid red;
 }
 
 .further-reading-section {
@@ -613,14 +613,39 @@ footer {
   justify-self: center;
   margin: 0 auto;
   height: 500px;
+  display: flex;
 }
 
 .footer-left-section {
   display: flex;
   justify-content: space-between;
+  width: 70%;
 }
 
 .footer-left-section a p {
   font-size: 1.3rem;
   line-height: 2.6rem;
+}
+
+.footer-right-section {
+  border-left: 1px solid lightgray;
+  padding-left: 20px;
+  margin-left: 50px;
+}
+
+.links-with-icon {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.links-with-icon a {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.footer-right-section svg {
+  height: 13px;
+  width: 13px;
+  margin-right: 7px;
 }
