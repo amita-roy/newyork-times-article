@@ -374,6 +374,7 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 1.5rem;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .hr-line:first-of-type {
@@ -708,7 +709,7 @@ footer h5 {
 .aside-editors-picks {
   position: absolute;
   font-size: 3rem;
-  right: 130px;
+  left: 67%;
   top: 1850px;
   margin-left: 150px;
   width: 200px;
