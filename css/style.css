@@ -7,7 +7,7 @@
 }
 
 .right-margin {
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 .hr-line {
@@ -92,7 +92,7 @@ main h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 4rem;
   margin-top: 75px;
-  width: 40%;
+  max-width: 40%;
 }
 
 .opening-image-container {
@@ -105,7 +105,8 @@ main h1 {
 }
 
 .opening-image-container p {
-  width: 70%;
+  max-width: 80%;
+  margin-top: 7px;
 }
 
 .opening-image-container p,
@@ -147,15 +148,22 @@ main h1 {
 
 .publication-date {
   font-size: 1.3rem;
+  max-width: 300px;
 }
 
 .social-icons {
   display: flex;
   align-items: center;
+  margin-left: 30px;
 }
 
 .social-icons i {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+}
+.social-icons .comments {
+  margin-left: -26px;
+  margin-top: -5px;
+  font-size: 1.2rem;
 }
 
 .icon-svg {
@@ -195,7 +203,7 @@ h3 {
   width: 100%;
   max-width: 945px;
   height: auto;
-  margin-bottom: 130px;
+  /* margin-bottom: 130px; */
 }
 
 .inflation-graphic-grid {
@@ -448,7 +456,7 @@ p {
 .main-article-footer-btn {
   background-color: rgb(86, 123, 149);
   color: white;
-  padding: 10px 0px;
+  padding: 10px;
   width: 330px;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -456,6 +464,7 @@ p {
   border: 1px solid rgb(50, 104, 145);
   border-radius: 3px;
   font-size: 1.2rem;
+  margin-right: 30px;
 }
 
 .main-article-footer-btn:hover {
