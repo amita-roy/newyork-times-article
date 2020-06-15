@@ -78,6 +78,7 @@ header {
   border-bottom: var(--bottom-border);
   position: fixed;
   background-color: var(--color-white);
+  z-index: 2;
 }
 
 nav {
