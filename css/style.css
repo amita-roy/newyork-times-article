@@ -22,14 +22,19 @@ header {
   border-bottom: 1px solid lightgray;
   display: flex;
   align-items: center;
+  position: fixed;
+  background-color: white;
 }
 
 nav {
-  max-width: 85%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  background-color: white;
+  padding: 0px 20px;
 }
 
 .nav-logo {
@@ -60,6 +65,10 @@ a {
   font-weight: 550;
 }
 
+.nav-left-section i {
+  font-size: 1.5em;
+}
+
 .login-btn {
   padding: 8px 15px;
   background-color: black;
@@ -74,12 +83,13 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  padding: 0px 20px;
 }
 
 main h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 4rem;
-  margin-top: 60px;
+  margin-top: 75px;
   width: 40%;
 }
 
