@@ -188,6 +188,7 @@ main h1 {
   margin-left: -26px;
   margin-top: -5px;
   font-size: 1.2rem;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .icon-svg {
@@ -459,6 +460,7 @@ h3 {
   border-radius: 3px;
   font-size: 1.2rem;
   margin-right: 30px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .main-article-footer-btn:hover {

@@ -5,6 +5,12 @@
 ![screenshot](Screenshots/New-York-Times-Screenshot3.jpg)
 ![screenshot](Screenshots/New-York-Times-Screenshot4.jpg)
 ​
+## Live Version
+
+
+
+
+
 ## Built With
 - HTML
 - CSS
@@ -26,7 +32,7 @@ A browser of preference.
 👤 **Joe Burke**
 ​
 - Github: [@Joseph-Burke](https://github.com/Joseph-Burke)
-​
+
 
 👤 **Amita Roy**
 ​
