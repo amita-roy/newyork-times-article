@@ -318,54 +318,6 @@ h3 {
   margin-bottom: 15px;
 }
 
-.description1 {
-  top: 24.8264%;
-  left: 0.0436%;
-  width: 228px;
-}
-
-.description2 {
-  top: 24.8264%;
-  left: 25.5619%;
-  width: 228px;
-}
-
-.description3 {
-  top: 24.8264%;
-  left: 51.08%;
-  width: 228px;
-}
-
-.description4 {
-  top: 24.8264%;
-  left: 76.5982%;
-  width: 228px;
-}
-
-.description5 {
-  top: 73.4375%;
-  left: 0.0436%;
-  width: 228px;
-}
-
-.description6 {
-  top: 73.4375%;
-  left: 25.5619%;
-  width: 228px;
-}
-
-.description7 {
-  top: 73.4375%;
-  left: 51.08%;
-  width: 228px;
-}
-
-.description8 {
-  top: 73.4375%;
-  left: 76.5982%;
-  width: 228px;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -506,9 +458,9 @@ p {
 /* .further-reading-astronomy > *, */
 /* .further-reading-editors-picks > * */
 /* .further-reading-popular > * */
-footer {
+/* footer {
   border: 1px solid red;
-}
+} */
 
 .further-reading-section {
   width: 83.5%;
@@ -608,12 +560,34 @@ footer {
   font-weight: 500;
 }
 
+.footer-header {
+  max-width: 83.5%;
+  margin: 0 auto;
+  border-top: 1px double lightgray;
+  border-top-width: 4px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.footer-header svg {
+  width: 200px;
+}
+
 footer {
-  width: 83.5%;
+  max-width: 83.5%;
   justify-self: center;
   margin: 0 auto;
-  height: 500px;
+  height: auto;
   display: flex;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+footer h5 {
+  font-size: 1.3rem;
 }
 
 .footer-left-section {
@@ -633,6 +607,10 @@ footer {
   margin-left: 50px;
 }
 
+.footer-right-section h5 {
+  margin-bottom: 15px;
+}
+
 .links-with-icon {
   margin-bottom: 15px;
   display: flex;
@@ -648,4 +626,56 @@ footer {
   height: 13px;
   width: 13px;
   margin-right: 7px;
+}
+
+.footer-right-section .links {
+  margin-bottom: 10px;
+}
+
+.footer-right-section .links:hover,
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.footer-divider {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.footer-nav {
+  max-width: 83.5%;
+  margin-left: auto;
+  margin: 10px auto 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-nav a {
+  color: #888;
+}
+
+.fixed-footer {
+  padding: 20px 0;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.fixed-footer p:nth-child(1) {
+  font-size: 1.5rem;
+}
+
+.fixed-footer p:nth-child(2) {
+  margin-left: 150px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.fixed-footer i {
+  font-size: 1.8rem;
+  margin-left: 30px;
+  color: rgb(90, 90, 90);
 }
