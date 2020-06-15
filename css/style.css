@@ -4,7 +4,20 @@
   box-sizing: border-box;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 10px;
+}
 
+  .nav-left-section a,
+  #account-creation-invitation,
+  .container a, 
+  .author, 
+  .publication, 
+  .publication-date {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .right-margin {
@@ -25,6 +38,7 @@ header {
   align-items: center;
   position: fixed;
   background-color: white;
+  z-index: 2;
 }
 
 nav {
@@ -33,28 +47,21 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  background-color: white;
   padding: 0px 20px;
 }
 
-.nav-logo {
+.navbar-nyt-logo {
   display: flex;
   align-items: center;
 }
 
-.nav-logo svg {
+.navbar-nyt-logo svg {
   width: 200px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
 }
 
 .nav-left-section a,
 .nav-right-section a {
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .nav-left-section a {
@@ -86,7 +93,6 @@ main {
   justify-content: flex-start;
   padding: 0px 20px;
   position: relative;
-  z-index: -1;
 }
 
 main h1 {
@@ -114,7 +120,6 @@ main h1 {
 .opening-image-container p,
 .image-container p {
   font-size: 1.5rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
   color: #666;
   line-height: 1.7rem;
 }
@@ -122,7 +127,6 @@ main h1 {
 .opening-image-credits,
 .image-container-credit {
   font-size: 1.2rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
   color: #888;
   margin-left: 8px;
 }
@@ -185,7 +189,7 @@ main h1 {
 }
 
 .author {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .main-article-text p {
@@ -206,72 +210,57 @@ h3 {
   width: 100%;
   max-width: 945px;
   height: auto;
-  /* margin-bottom: 130px; */
 }
 
 .inflation-graphic-grid {
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-    "image image image image"
-    "image image image image"
-    "image image image image"
-    "image image image image";
+  grid-template:
+    "image image image image" 1fr 
+    "image image image image" 1fr
+    "image image image image" 1fr
+    "image image image image" 1fr /
+    1fr 1fr 1fr 1fr 
 }
 
 #inflation-graphic-image {
-  grid-row-start: 1;
-  grid-row-end: 5;
-  grid-column-start: 1;
-  grid-column-end: 5;
+  grid-area: image;
   width: 100%;
   height: 100%;
 }
 
-.inflation-graphic-grid-item span {
-  margin-right: 7px;
-}
-
-.inflation-graphic-grid-item1 {
-  grid-row: 2 / 3;
-  grid-column: 1 / 2;
-}
-
-.inflation-graphic-grid-item2 {
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
-}
-
-.inflation-graphic-grid-item3 {
-  grid-row: 2 / 3;
-  grid-column: 3 / 4;
-}
-
+.inflation-graphic-grid-item1,
+.inflation-graphic-grid-item2,
+.inflation-graphic-grid-item3,
 .inflation-graphic-grid-item4 {
   grid-row: 2 / 3;
-  grid-column: 4 / 5;
 }
 
-.inflation-graphic-grid-item5 {
+.inflation-graphic-grid-item5,
+.inflation-graphic-grid-item6,
+.inflation-graphic-grid-item7,
+.inflation-graphic-grid-item8 {
   grid-row: 4 / 5;
+}
+
+.inflation-graphic-grid-item1,
+.inflation-graphic-grid-item5 {
   grid-column: 1 / 2;
 }
 
+.inflation-graphic-grid-item2,
 .inflation-graphic-grid-item6 {
-  grid-row: 4 / 5;
   grid-column: 2 / 3;
 }
 
+.inflation-graphic-grid-item3,
 .inflation-graphic-grid-item7 {
-  grid-row: 4 / 5;
   grid-column: 3 / 4;
 }
 
+.inflation-graphic-grid-item4,
 .inflation-graphic-grid-item8 {
-  grid-row: 4 / 5;
   grid-column: 4 / 5;
 }
 
@@ -287,6 +276,7 @@ h3 {
   font-size: 11px;
   font-weight: bold;
   letter-spacing: 0.05em;
+  margin-right: 7px;
 }
 
 .inflation-graphic-container img {
@@ -303,7 +293,6 @@ h3 {
   font-size: 1.5rem;
   color: #666;
   margin-bottom: 30px;
-
   align-self: flex-start;
   margin-right: 7px;
 }
@@ -374,7 +363,6 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 1.5rem;
-  font-family: Helvetica, Arial, sans-serif;
 }
 
 .hr-line:first-of-type {
@@ -474,15 +462,6 @@ p {
 .main-article-footer-btn:hover {
   background-color: rgb(50, 104, 145);
 }
-
-/* .further-reading-section, */
-/* .further-reading-section > *, */
-/* .further-reading-astronomy > *, */
-/* .further-reading-editors-picks > * */
-/* .further-reading-popular > * */
-/* footer {
-  border: 1px solid red;
-} */
 
 .further-reading-section {
   width: 83.5%;
