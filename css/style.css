@@ -25,7 +25,7 @@ header {
 }
 
 nav {
-  width: 85%;
+  max-width: 85%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -84,7 +84,7 @@ main h1 {
 }
 
 .opening-image-container {
-  width: 83%;
+  max-width: 83%;
   margin-top: 22px;
 }
 
@@ -113,7 +113,8 @@ main h1 {
 }
 
 .main-article {
-  width: 41%;
+  width: 100%;
+  max-width: 40%;
   margin-top: 30px;
 }
 
@@ -179,8 +180,9 @@ h3 {
 }
 
 .inflation-graphic-container {
-  width: 945px;
-  height: 576px;
+  width: 100%;
+  max-width: 945px;
+  height: auto;
   margin-bottom: 130px;
 }
 
@@ -267,11 +269,6 @@ h3 {
 .inflation-graphic-container img {
   max-width: 100%;
   height: auto;
-}
-
-.inflation-graphic-header,
-.graphic-intro {
-  width: 945px;
 }
 
 .inflation-graphic-header {
@@ -574,6 +571,10 @@ p {
 
 .footer-header svg {
   width: 200px;
+}
+
+.footer-header a {
+  color: #326891;
 }
 
 footer {
