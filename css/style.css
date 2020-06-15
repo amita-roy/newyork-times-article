@@ -84,6 +84,8 @@ main {
   align-items: center;
   justify-content: flex-start;
   padding: 0px 20px;
+  position: relative;
+  z-index: -1;
 }
 
 main h1 {
@@ -689,4 +691,37 @@ footer h5 {
   font-size: 1.8rem;
   margin-left: 30px;
   color: rgb(90, 90, 90);
+}
+
+.aside-editors-picks {
+  position: absolute;
+  font-size: 3rem;
+  right: 130px;
+  top: 1900px;
+  margin-left: 150px;
+  width: 200px;
+}
+
+.aside-title {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+}
+
+.aside-article-link {
+  display: flex;
+  margin: 18px 0px;
+  align-items: center;
+}
+
+.aside-article-link img {
+  width: 35%;
+  height: auto;
+  margin-right: 12px;
+}
+
+.aside-article-link h5 {
+  font-size: 1.3em;
+  font-weight: normal;
+  line-height: 1.5rem;
 }
