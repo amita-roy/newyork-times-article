@@ -5,11 +5,8 @@
 ![screenshot](Screenshots/New-York-Times-Screenshot3.jpg)
 ![screenshot](Screenshots/New-York-Times-Screenshot4.jpg)
 ​
-## Live Version
-
-
-
-
+## Live Demo
+[Live Demo Link](https://boring-nightingale-71924c.netlify.app/)
 
 ## Built With
 - HTML
