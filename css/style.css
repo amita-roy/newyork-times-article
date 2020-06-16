@@ -112,6 +112,9 @@ nav {
   background-color: var(--black-color);
   color: var(--color-white);
   border-radius: 3px;
+  border: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
 }
 
 main {
@@ -123,13 +126,15 @@ main {
 main h1 {
   font-size: 4rem;
   margin-top: 120px;
-  max-width: 43%;
+  width: var(--default-width);
+  max-width: 650px;
   font-style: italic;
   font-weight: var(--medium-font-weight);
 }
 
 .opening-image-container {
-  max-width: 83%;
+  width: var(--default-width);
+  max-width: 1200px;
   margin-top: 22px;
 }
 
@@ -138,7 +143,8 @@ main h1 {
 }
 
 .opening-image-container p {
-  max-width: 80%;
+  width: var(--default-width);
+  max-width: 1000px;
   margin-top: 7px;
 }
 
@@ -160,7 +166,7 @@ main h1 {
 
 .main-article {
   width: var(--default-width);
-  max-width: 43%;
+  max-width: 750px;
   margin-top: 30px;
 }
 
@@ -172,6 +178,7 @@ main h1 {
 }
 
 .publication-date {
+  width: var(--default-width);
   font-size: 1.3rem;
   max-width: 300px;
 }
@@ -296,7 +303,7 @@ h3 {
 }
 
 .inflation-graphic-container img {
-  max-width: 100%;
+  width: var(--default-width);
   height: var(--default-height);
 }
 
@@ -430,7 +437,8 @@ h3 {
 }
 
 .image-container {
-  max-width: 50%;
+  width: var(--default-width);
+  max-width: 800px;
 }
 
 .image-container img {
@@ -570,7 +578,8 @@ footer h5 {
 }
 
 .footer-header {
-  max-width: 83.5%;
+  width: var(--default-width);
+  max-width: 1600px;
   margin: var(--margin-auto);
   border-top: 1px double lightgray;
   border-top-width: 4px;
@@ -583,7 +592,8 @@ footer h5 {
 }
 
 footer {
-  max-width: 83.5%;
+  width: var(--default-width);
+  max-width: 1600px;
   justify-self: center;
   margin: var(--margin-auto);
   height: var(--default-height);
@@ -636,7 +646,8 @@ footer {
 }
 
 .footer-nav {
-  max-width: 83.5%;
+  width: var(--default-width);
+  max-width: 1600px;
   margin: 10px auto 100px;
   justify-content: space-evenly;
 }
@@ -673,7 +684,8 @@ footer {
   left: 67%;
   top: 1850px;
   margin-left: 150px;
-  width: 200px;
+  width: 100%;
+  max-width: 250px;
 }
 
 .aside-title {
