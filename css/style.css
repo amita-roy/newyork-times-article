@@ -27,7 +27,7 @@ a {
 }
 
 .nav-left-section a,
-#account-creation-invitation,
+.account-creation-invitation,
 .container a,
 .author,
 .publication,
@@ -241,10 +241,9 @@ h3 {
     1fr 1fr 1fr 1fr;
 }
 
-#inflation-graphic-image {
+.inflation-graphic-image {
   grid-area: image;
   width: var(--default-width);
-  height: 100%;
 }
 
 .inflation-graphic-grid-item1,
@@ -346,7 +345,7 @@ h3 {
   border-bottom: 1px solid rgb(2, 2, 2);
 }
 
-#account-creation-invitation,
+.container .account-creation-invitation,
 .container a {
   margin-top: 0;
   margin-bottom: 0;
@@ -394,12 +393,12 @@ h3 {
   text-decoration: none;
 }
 
-#video-description {
+.video-description {
   margin-bottom: 40px;
 }
 
-#video-description,
-#video-credits {
+.video-description,
+.video-credits {
   font-size: var(--medium-font-size);
   color: #666;
   margin-top: 0.7rem;
@@ -407,7 +406,7 @@ h3 {
   width: var(--default-width);
 }
 
-#video-credits {
+.video-credits {
   font-size: 1.3rem;
   color: #888;
 }
