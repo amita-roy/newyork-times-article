@@ -27,13 +27,17 @@ A browser of preference.
 ## Authors
 ​
 👤 **Joe Burke**
-​
-- Github: [@Joseph-Burke](https://github.com/Joseph-Burke)
 
+- Github: [@Joseph-Burke](https://github.com/githubhandle)
+- Twitter: [@__joeburke](https://twitter.com/__joeburke)
+- Linkedin: [Joseph Burke](https://www.linkedin.com/in/joseph-burke-b7a8261a5)
+- E-mail: joseph_burke@outlook.com
 
 👤 **Amita Roy**
 ​
 - Github: [@Amita-Roy](https://github.com/Amita-Roy)
+- Twitter: [@AmitaRoy14](https://twitter.com/AmitaRoy14)
+- Linkedin: [Amita Roy](https://www.linkedin.com/in/amita-roy-3b823b68)
 ​
 ## �� Contributing
 ​
