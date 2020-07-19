@@ -1,0 +1,25 @@
+{
+  "name": "newyork-times-article",
+  "version": "1.0.0",
+  "description": "> This project is a clone of an article by the New York Times on the discovery of inflation, a scientific theory first proposed by physicist Alan Guth. ![screenshot](Screenshots/New-York-Times-Screenshot1.jpg) ![screenshot](Screenshots/New-York-Times-Screenshot2.jpg) ![screenshot](Screenshots/New-York-Times-Screenshot3.jpg) ![screenshot](Screenshots/New-York-Times-Screenshot4.jpg) ​ ## Live Demo 🔴 [Live Demo Link](https://boring-nightingale-71924c.netlify.app/)",
+  "main": "stylelint.config.js",
+  "dependencies": {
+    "stylelint": "^13.6.0",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amita-Roy/newyork-times-article.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amita-Roy/newyork-times-article/issues"
+  },
+  "homepage": "https://github.com/Amita-Roy/newyork-times-article#readme"
+}
